@@ -1,0 +1,26 @@
+.container{
+    max-width: 955px;
+    background-color: bisque;
+    padding: 2rem;
+    height: 60vh;
+    overflow-y: auto;
+}
+
+.message{
+    background-color: aqua;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 1px solid black;
+    border-radius: 120px;
+}
+.left{
+    border-top-right-radius: 0%;
+    float: left;
+    clear: both;
+}
+.right{
+    border-top-left-radius: 0%;
+    float: right;
+    clear: both;
+}
